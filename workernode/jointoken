@@ -1,0 +1,7 @@
+** Use kubeadm join command with token (copy the command from master and paste on worker, Use sudo before command.)**
+**after you run join command on worker node the master and worker nodes are linked.**
+**example of kubeadm join command:**
+     --->  sudo kubeadm join 172.31.31.236:6443 --token goio0w.rod1ju8y8vvp9n59 --discovery-token-ca-cert-hash sha256:6e8b2d1e871fe84901c3d30a989067e0591b9084c35c15db9875cf094ec36f7e
+
+
+
